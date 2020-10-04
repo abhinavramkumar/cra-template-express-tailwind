@@ -2,14 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Copy the contents of packageUpdate.json to your package.json
-
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm scaffold:generate`
+
+Installs dev dependencies for tailwindcss, ESLint, Prettier, Pre-commit Hooks etc.
+
 ### `npm start`
 
+Run this once scaffold has been generated.\
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
