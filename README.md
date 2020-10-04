@@ -1,6 +1,6 @@
 # cra-template-express-tailwind
 
-This is a template for [Create React App](https://github.com/facebook/create-react-app) that incldes a simple NodeJS Server with Express and tailwindcss for styling.
+This is a template for [Create React App](https://github.com/facebook/create-react-app) that includes a simple NodeJS Server with Express and tailwindcss for styling.
 
 This template also includes:
 
