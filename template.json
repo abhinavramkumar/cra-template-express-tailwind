@@ -1,0 +1,25 @@
+{
+  "package": {
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.0.4",
+      "@testing-library/user-event": "^12.1.4",
+      "web-vitals": "^0.2.4",
+      "whatwg-fetch": "^3.0.0",
+      "react-app-polyfill": "1.0.6",
+      "express": "^4.17.1",
+      "nodemon": "^2.0.4"
+    },
+    "scripts": {
+      "scaffold:generate": "node scripts/scaffold.js",
+      "build:tailwind": "npx postcss src/app.css -o src/app.generated.css",
+      "watch:tailwind": "npx postcss -w src/app.css -o src/app.generated.css",
+      "start:react": "react-scripts start",
+      "start": "run-p watch:tailwind start:react",
+      "serve": "nodemon server/index.js",
+      "prebuild": "npm run build:tailwind",
+      "build": "react-scripts build",
+      "analyze": "source-map-explorer 'build/static/js/*.js'"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+/* purgecss start ignore */
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* purgecss stop ignore */
+
+@tailwind utilities;
